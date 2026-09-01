@@ -1,0 +1,16 @@
+NETWORK TRAFFIC ANALYSIS REPORT
+=============================================
+
+Total connections: 3
+Normal connections: 2
+Suspicious connections: 1
+
+TRAFFIC DETAILS
+---------------------------------------------
+10.10.0.2 -> 10.10.0.3:4444 | Protocol: tcp | Service: - | Status: SUSPICIOUS - Common testing port
+10.10.0.2 -> 10.10.0.3:8080 | Protocol: tcp | Service: - | Status: NORMAL
+10.10.0.2 -> 10.10.0.3:0 | Protocol: icmp | Service: - | Status: NORMAL
+
+SECURITY SUMMARY
+---------------------------------------------
+Potentially unusual traffic was detected.
